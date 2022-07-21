@@ -1,1 +1,23 @@
+button:hover {
+    transition: 2s;
+    background-color: cornflowerblue;
+    color: ghostwhite;
+  } 
 
+.text{
+  position: relative;
+  overflow: hidden;
+  transform: translateY(-4em);
+  color: white;
+  max-width: 80%;
+  margin: auto;
+
+}
+.container:hover .text{
+transform: translateY(-26em);
+transition: 2s;
+}
+
+button {
+  transform: translateY(-7em);
+}
